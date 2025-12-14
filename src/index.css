@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(70, 69, 150); */
+    font-family:  "Times New Roman", Times, serif;
+}
