@@ -37,7 +37,7 @@ interface DATA {
 
 // LAV KUMAR YADAV
 export const data: DATA = {
-    name: "Lav Kumar Yadav",
+    name: "Abhishek Yadav",
     location: "Ghaziabad, Uttar Pradesh",
     socialMedia: [
         {
