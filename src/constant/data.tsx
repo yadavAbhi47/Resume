@@ -274,20 +274,20 @@ export const data: DATA = {
         },
     ],
     projects: [
-        {
-            title: "IChat – A Real-Time Chat Platform",
-            link: "https://chat-app-1-pwkc.onrender.com/",
-            time: "11/2024 - 12/2024",
-            points: [
-                <>Developed a real-time chat platform supporting one-to-one messaging with persistent chat history, ensuring reliability and scalability.</>,
-                <>Engineered backend services using Node.js and Express.js, implementing secure authentication and session handling for user accounts.</>,
-                <>Leveraged Socket.IO to enable instant bidirectional communication between clients and servers with minimal latency.</>,
-                <>Integrated MongoDB for structured storage of chat messages and user details, with efficient schema design for faster queries.</>,
-                <>Created a React.js frontend with reusable components and a clean UI for smooth real-time chat interactions.</>,
-                <>Collaborated in a simulated agile team setup, using Git and GitHub for version control, peer reviews, and task management.</>,
-                <><b>Tech Stack:</b> Node.js, Express.js, Socket.IO, React.js, MongoDB</>
-            ]
-        },
+        // {
+        //     title: "IChat – A Real-Time Chat Platform",
+        //     link: "https://chat-app-1-pwkc.onrender.com/",
+        //     time: "11/2024 - 12/2024",
+        //     points: [
+        //         <>Developed a real-time chat platform supporting one-to-one messaging with persistent chat history, ensuring reliability and scalability.</>,
+        //         <>Engineered backend services using Node.js and Express.js, implementing secure authentication and session handling for user accounts.</>,
+        //         <>Leveraged Socket.IO to enable instant bidirectional communication between clients and servers with minimal latency.</>,
+        //         <>Integrated MongoDB for structured storage of chat messages and user details, with efficient schema design for faster queries.</>,
+        //         <>Created a React.js frontend with reusable components and a clean UI for smooth real-time chat interactions.</>,
+        //         <>Collaborated in a simulated agile team setup, using Git and GitHub for version control, peer reviews, and task management.</>,
+        //         <><b>Tech Stack:</b> Node.js, Express.js, Socket.IO, React.js, MongoDB</>
+        //     ]
+        // },
         {
             title: "Student Management System – To perform CRUD operations",
             link: "https://github.com/yadavAbhi47/Student-Management-Application",
