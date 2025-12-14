@@ -33,12 +33,12 @@ interface DATA {
         title: string;
         link: string;
     }[];
-    extracurricular: {
-        event: string;
-        position: string;
-        time: string;
-        point: React.ReactNode;
-    }[];
+    // extracurricular: {
+    //     event: string;
+    //     position: string;
+    //     time: string;
+    //     point: React.ReactNode;
+    // }[];
 
 }
 
@@ -221,7 +221,7 @@ export const data: DATA = {
     ],
     ProfilePic: "",
     proffesionalSummary:
-        "Backend developer with a strong foundation in computer science, data structures, and algorithms, specializing in Java and Spring Boot–based application development. Experienced in building REST APIs, implementing layered architecture, handling data persistence, and ensuring backend performance and reliability. Adept at writing clean, maintainable code and working in agile environments. Motivated to grow as a Java backend engineer and contribute to scalable backend systems.",
+        "Backend developer with a strong foundation in computer science, data structures, and algorithms, specializing in Java and Spring Boot. Experienced in building REST APIs, layered architectures, and data persistence with a focus on performance and reliability. Solved 400+ LeetCode problems, demonstrating strong problem-solving skills, and passionate about writing clean, maintainable code and contributing to scalable backend systems.",
     educationAndQualification: [
         {
             degree: "B.Tech",
@@ -246,25 +246,21 @@ export const data: DATA = {
         }
     ],
     technicalSkills: [
-        {
-            title: "Frontend Development",
-            skills: "HTML5, CSS3, JavaScript (ES6+), React.js, Responsive Web Design,"
-        },
+        // {
+        //     title: "Frontend Development",
+        //     skills: "HTML5, CSS3, JavaScript (ES6+), React.js, Responsive Web Design,"
+        // },
         {
             title: "Backend Development",
-            skills: "Java, Spring Boot, Spring MVC, RESTful API Development, Layered Architecture"
+            skills: "Java, Spring Boot, Spring Security (Basic Authentication, JWT – Basics), RESTful API Development"
         },
         {
             title: "Database",
             skills: "MySQL / PostgreSQL (Basics), SQL (Basics), Spring Data JPA, Hibernate"
         },
         {
-            title: "Security",
-            skills: "Spring Security (Basic Authentication, JWT – Basics), Authorization"
-        },
-        {
             title: "Programming & Concepts",
-            skills: "Core Java, Data Structures & Algorithms, Object-Oriented Programming (OOP)"
+            skills: "Core Java, Data Structures & Algorithms(DSA), Object-Oriented Programming (OOPs)"
         },
         {
             title: "Tools & Platforms",
@@ -343,20 +339,20 @@ export const data: DATA = {
         }
     ],
 
-    extracurricular: [
-    {
-        event: "TEDXABES(Event)",
-        position: "Coordinator",
-        time: "2024",
-        point: <>Led the design and setup of event decorations, ensuring alignment with TEDx themes and audience experience. Collaborated with team members to deliver creative and timely event setups.</>
-    },
-    {
-        event: "GENERO(College Fest)",
-        position: "Coordinator",
-        time: "2025",
-        point: <>Guided volunteers in planning and executing event decorations, ensuring visually appealing setups aligned with fest themes.</>
-    }
-    ]
+    // extracurricular: [
+    // {
+    //     event: "TEDXABES(Event)",
+    //     position: "Coordinator",
+    //     time: "2024",
+    //     point: <>Led the design and setup of event decorations, ensuring alignment with TEDx themes and audience experience. Collaborated with team members to deliver creative and timely event setups.</>
+    // },
+    // {
+    //     event: "GENERO(College Fest)",
+    //     position: "Coordinator",
+    //     time: "2025",
+    //     point: <>Guided volunteers in planning and executing event decorations, ensuring visually appealing setups aligned with fest themes.</>
+    // }
+    // ]
 
 };
 

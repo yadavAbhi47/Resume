@@ -20,6 +20,10 @@ const Resume = () => {
             />
             <ProffessionsalSummary />
 
+            <SectionHeading
+                heading="Education & Qualifications"
+            />
+            <EducationsAndQualifications />
             
             <SectionHeading
                 heading="Technical Skills"
@@ -39,17 +43,13 @@ const Resume = () => {
             {data.certifications.length > 0 && <Certifications />}
 
 
-            <SectionHeading
-                heading="Education & Qualifications"
-            />
-            <EducationsAndQualifications />
 
-            {data.extracurricular.length > 0 && (
+            {/* {data.extracurricular.length > 0 && (
                 <>
                  <SectionHeading heading="Extracurricular Activities" />
                  <Extracurricular />
                  </>
-            )}
+            )} */}
 
 
 
@@ -382,50 +382,50 @@ const Heading = () => {
     )
 }
 
-const Extracurricular = () => {
-    return (
-        <div
-            style={{
-                fontSize: textSize,
-                textAlign: "justify",
-            }}
-        >
-            {data.extracurricular.map((item, index) => (
-                <div key={index}>
-                    {/* Event + Position | Time */}
-                    <div
-                        style={{
-                            display: "flex",
-                            justifyContent: "space-between",
-                            alignItems: "center",
-                            width: "100%"
-                        }}
-                    >
-                        <p>
-                            <span style={{ fontWeight: "bold" }}>{item.event}</span>
-                            {" — "}
-                            <i>{item.position}</i>
-                        </p>
-                        <p><i>{item.time}</i></p>
-                    </div>
+// const Extracurricular = () => {
+//     return (
+//         <div
+//             style={{
+//                 fontSize: textSize,
+//                 textAlign: "justify",
+//             }}
+//         >
+//             {data.extracurricular.map((item, index) => (
+//                 <div key={index}>
+//                     {/* Event + Position | Time */}
+//                     <div
+//                         style={{
+//                             display: "flex",
+//                             justifyContent: "space-between",
+//                             alignItems: "center",
+//                             width: "100%"
+//                         }}
+//                     >
+//                         <p>
+//                             <span style={{ fontWeight: "bold" }}>{item.event}</span>
+//                             {" — "}
+//                             <i>{item.position}</i>
+//                         </p>
+//                         <p><i>{item.time}</i></p>
+//                     </div>
 
-                    {/* Bullet point */}
-                    <div
-                        style={{
-                            display: "flex",
-                            alignItems: "start"
-                        }}
-                    >
-                        <div style={{ width: "30px", height: "10px" }}>
-                            <Dot style={{ color: "rgb(70, 69, 150)" }} size={24} />
-                        </div>
-                        <p>{item.point}</p>
-                    </div>
-                </div>
-            ))}
-        </div>
-    );
-};
+//                     {/* Bullet point */}
+//                     <div
+//                         style={{
+//                             display: "flex",
+//                             alignItems: "start"
+//                         }}
+//                     >
+//                         <div style={{ width: "30px", height: "10px" }}>
+//                             <Dot style={{ color: "rgb(70, 69, 150)" }} size={24} />
+//                         </div>
+//                         <p>{item.point}</p>
+//                     </div>
+//                 </div>
+//             ))}
+//         </div>
+//     );
+// };
 
 
 
