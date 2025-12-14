@@ -33,6 +33,13 @@ interface DATA {
         title: string;
         link: string;
     }[];
+    extracurricular: {
+        event: string;
+        position: string;
+        time: string;
+        point: React.ReactNode;
+    }[];
+
 }
 
 // // LAV KUMAR YADAV
@@ -178,7 +185,6 @@ interface DATA {
 // };
 
 // ABHISHEK YADAV
-// LAV KUMAR YADAV
 export const data: DATA = {
     name: "Abhishek Yadav",
     location: "Ghaziabad, Uttar Pradesh",
@@ -335,6 +341,22 @@ export const data: DATA = {
             title: "Data Analytics Essentials (Cisco Networking Academy)",
             link: "https://drive.google.com/file/d/1U2YG-XH3KCCmyOr0znM0xkeVsnxSKFbk/view"
         }
+    ],
+
+    extracurricular: [
+    {
+        event: "TEDXABES(Event)",
+        position: "Coordinator",
+        time: "2024",
+        point: <>Led the design and setup of event decorations, ensuring alignment with TEDx themes and audience experience. Collaborated with team members to deliver creative and timely event setups.</>
+    },
+    {
+        event: "GENERO(College Fest)",
+        position: "Coordinator",
+        time: "2025",
+        point: <>Guided volunteers in planning and executing event decorations, ensuring visually appealing setups aligned with fest themes.</>
+    }
     ]
+
 };
 
